@@ -9,9 +9,10 @@ function App() {
 
   return (
     <>
-      <h2 className='bg-orange-400 text-black p-4 rounded-xl mb-4' >Tailwind works!</h2>
+      <h1 className='bg-orange-400 text-black p-4 rounded-xl mb-4' >Tailwind works!</h1>
 
-      <Card />
+      <Card username= "sakhawatansari.dev" btnText="click here"/>
+      <Card username="sakhawatansari.staff" btnText="visit me"/>
 
     </>
   )
