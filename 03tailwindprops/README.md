@@ -38,17 +38,17 @@ In the tailwind.config.js file, configure the purge option to remove unused styl
 
 ```Javascript
 // tailwind.config.js
-module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
-  },
   plugins: [],
-};
+}
 ```
 ## Step 5: Import Tailwind CSS in Your Project
 ```css
