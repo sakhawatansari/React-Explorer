@@ -15,3 +15,13 @@ __*REMEMBER* :__ when you use tailwind css then to change config file and add `d
 darkMode: "class",
 ```
 
+# Snapshot of this project
+- Dark mode off
+
+![lightTheme](./lightTheme.PNG)
+
+- Dark mode on
+
+![darkTheme](./darkTheme.PNG)
+
+
